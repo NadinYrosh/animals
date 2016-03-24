@@ -1,4 +1,4 @@
-.panda, .turtle, .cats {
+.panda, .turtle, .cat {
   width: 900px;
   margin: auto;
   margin-bottom: 40px;
@@ -32,4 +32,11 @@ h1 {
 button {
   display: inline-block;
   margin: 15px;
+}
+
+.all {
+  display: block!important;
+  margin: 15px auto;
+  width: 100z%;
+
 }
