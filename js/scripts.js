@@ -1,4 +1,4 @@
-$(document).ready(function(event) {
+$(document).ready(function() {
 
   $("button.pan").click(function() {
     $(".panda").show();
@@ -17,16 +17,14 @@ $(document).ready(function(event) {
   });
 
   $("button.all").click(function() {
-    var animal = prompt("Type one: Panda, Turtle, Cat").val;
+    var animal = prompt("Type one: Panda, Turtle, Cat");
 
-    if (animal === Panda) {
+    if (animal === "panda") {
       $(".panda").show();
-    } else if (animal === Turtle) {
+    } else if (animal === "turtle") {
       $(".turtle").show();
     } else {
       $(".cat").show();
     }
-
-    event.preventDefalt();
   });
 });
