@@ -1,0 +1,35 @@
+.panda, .turtle, .cats {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-family: "helvetica neue";
+  font-weight: 100;
+  font-size: 150%;
+  letter-spacing: 1px;
+  display: none;
+}
+
+img {
+  width: 900px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+  font-family: "helvetica neue";
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 350%;
+}
+
+.butts {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  margin: 15px;
+}
